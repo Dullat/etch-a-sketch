@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sides">
+            <div class="controls">
+                <div class="color-selector">
+                    <input type="color" id="colorPicker" name="colorPicker" value="#ff0000">
+                </div>
+                <button class="eraser | btn">Erase</button>
+                <button class="reset | btn">reset</button>
+            </div>
+            <div class="draw-area">
+                <div class="sketch-box"></div>
+                <input type="range" min="4" max="80" value="20" class="slider">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
