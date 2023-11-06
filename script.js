@@ -2,7 +2,8 @@ const sketchBox = document.querySelector('.sketch-box');
 const slider = document.querySelector('.slider');
 const reset = document.querySelector('.reset');
 const erase = document.querySelector('.eraser');
-const sliderValue = 0;
+let colorValue = "black";
+let colorPicker = document.querySelector('#colorPicker');
 
 
 
@@ -62,6 +63,17 @@ reset.addEventListener('click', () => {
     slider.value = 20;
 })
 
+erase.addEventListener('click', () => {
+    colorValue = "aliceblue";
+})
+
+colorPicker.addEventListener('input', () => {
+    console.log(colorPicker.value);
+    colorValue = colorPicker.value;
+})
+
+
 function colorName(){
-    
+    console.log(colorValue);
+    return colorValue;
 }
