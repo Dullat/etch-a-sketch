@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    user-select: none;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+
+.sides {
+    display: flex;
+    align-items: center;
+}
+
+.draw-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.sketch-box {
+    height: 35rem;
+    aspect-ratio: 1;
+    background-color: aliceblue;
+}
