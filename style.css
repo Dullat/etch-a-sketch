@@ -14,6 +14,7 @@ body {
 .wrapper {
     background-color: antiquewhite;
     border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .sides {
@@ -44,4 +45,13 @@ body {
 
 .eraser {
     margin-top: auto;
+}
+
+.btn {
+    border: 1px solid black;
+    outline: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: .5rem;
+    height: 1.5rem;
 }
